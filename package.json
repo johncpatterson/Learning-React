@@ -10,6 +10,7 @@
     "test:watch": "npm run test -- --watch"
   },
   "author": "",
+  "homepage": "https://johncpatterson.github.io/Learning-React/",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.2.1",
