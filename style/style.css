@@ -11,6 +11,10 @@
 	max-width: 64px;
 }
 
+.embed-video {
+	border-radius: 4px;
+}
+
 .video-detail .details {
 	margin-top: 10px;
 	padding: 10px;
