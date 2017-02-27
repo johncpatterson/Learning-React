@@ -2,7 +2,7 @@ import React from 'react';
 
 const VideoDetail = (props) => {
 	if (!props.video) {
-		return <div>Video is Loading...</div>;
+		return <div>Video is loading...</div>;
 	};
 	const video = props.video;
 	const videoId = video.id.videoId;
