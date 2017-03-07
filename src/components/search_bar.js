@@ -12,7 +12,7 @@ class SearchBar extends Component {
 	constructor(props) {
 		super(props);
 
-		this.state = { term: '' }; //only class-based components have state
+		this.state = { term: 'Search for any YouTube video here... 📺' }; //only class-based components have state
 	}
 	render() { //define render method
 		return (
@@ -20,7 +20,6 @@ class SearchBar extends Component {
 				<input
 					value = {this.state.term} 
 					onChange={event => this.onInputChange(event.target.value)} />
-					
 			</div>
 		);
 	}

@@ -15,6 +15,14 @@
 	border-radius: 4px;
 }
 
+.video-title {
+  font-weight: bold;
+}
+
+.video-description {
+  font-style: italic;
+}
+
 .video-detail .details {
 	margin-top: 10px;
 	padding: 10px;
