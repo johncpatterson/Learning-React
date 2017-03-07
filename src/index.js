@@ -17,7 +17,7 @@ class App extends Component {
 			selectedVideo: null
 		}; 
 
-		this.videoSearch('motor trend');
+		this.videoSearch('dogs');
 	}
 
 	videoSearch(term) {
@@ -34,10 +34,10 @@ class App extends Component {
 
 		return ( 
 			<div>
-				<SearchBar onSearchTermChange={term => this.videoSearch(term)} />
+				<SearchBar onSearchTermChange={(term) => this.videoSearch(term)} />
 				<VideoDetail video={this.state.selectedVideo} />
 				<VideoList 
-					onVideoSelect={selectedVideo => this.setState({selectedVideo}) }
+					onVideoSelect={(selectedVideo) => this.setState({selectedVideo}) }
 					videos={this.state.videos} /> 
 			</div>
 		);
