@@ -22,6 +22,7 @@ class App extends Component {
 
 	videoSearch(term) {
 		YTSearch({key: API_KEY, term: term}, (videos) => {
+      console.log(videos);
 			this.setState({ 
 				videos: videos, //ES6 - could also do ({videos})...when key and value names are identical
 				selectedVideo: videos[0]
